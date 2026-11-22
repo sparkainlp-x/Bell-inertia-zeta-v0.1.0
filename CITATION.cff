@@ -1,0 +1,32 @@
+# Copyright (c) 2026 Jean-Francois Brisson (Spark AI NLP)
+# SPDX-License-Identifier: AGPL-3.0-only
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Bell + inertia + zeta: three measured scientific outcomes"
+type: software
+authors:
+  - family-names: "Brisson"
+    given-names: "Jean-François"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+    affiliation: "Spark AI NLP, Fredericton, New Brunswick, Canada"
+version: 0.1.0
+date-released: 2026-11-22
+license: AGPL-3.0-only
+abstract: >-
+  Synthetic and classical: three measured outcomes from three sources.
+  Bell (1964): a local hidden-variable model (Monte Carlo) stays at
+  CHSH |S| <= 2 while the quantum singlet reaches 2 sqrt(2), and at
+  equal settings the outcomes are perfectly anticorrelated. Moment of
+  inertia: the disk-slice integral of a solid sphere gives (2/5) M R^2,
+  and the sphere carries 3/5 of a thin shell's inertia. Riemann (1859):
+  the first ten zeta zeros on the critical line, computed from scratch
+  by Euler-Maclaurin summation, land on the established values, and ten
+  zeros sit below t = 50 as Riemann-von Mangoldt predicts. Measured
+  claims with frozen bars.
+keywords:
+  - "Bell theorem"
+  - "CHSH"
+  - "moment of inertia"
+  - "Riemann zeta"
+  - "synthetic"
+  - "python"
