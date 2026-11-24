@@ -48,6 +48,36 @@ refining each by golden-section search. The count below t = 50 is
 compared with the Riemann-von Mangoldt formula N(T) ~ (T/2 pi)
 log(T/2 pi) - T/2 pi + 7/8.
 
+## Status note (24 November 2026): the Riemann hypothesis
+
+On 20 November 2026 Levent Alpöge (Anthropic), working with Claude,
+released a formal proof of the Riemann hypothesis — and of the
+generalized Riemann hypothesis for Dirichlet L-functions — as a Lean
+formalization of 175,187 files, about 17 million lines. It was
+independently verified: on 21 November 2026 all 175,187 modules
+compiled with no errors, the five theorems depend only on Lean's three
+standard axioms, and a second, independently written kernel (nanoda)
+checked the 1,484,729 declarations the theorems depend on with no
+typechecker errors (Rubinstein, University of Waterloo). The Lean
+Focused Research Organization and the Mathlib Initiative issued a joint
+statement the same day: "We have full confidence that Alpöge's proof
+of the Riemann Hypothesis is correct."
+
+Caveats, kept on the record: no human-readable proof has been
+published yet — the working guide (Rubinstein, v2, 22 November 2026,
+265 pages) reduces the hypothesis to thirteen numbered hypotheses,
+none of which is proved outright in the guide, and the proof is not
+yet fully understood by mathematicians. The $1,000,000 Clay
+Millennium Prize remains open: the Clay Mathematics Institute requires
+publication in a qualifying outlet, two years, and general acceptance.
+
+What this changes here: nothing in the measurements. Claims (vi) and
+(vii) still pass with the same numbers (ten zeros, worst
+|t - known| 4.78e-07; count 10 against a Riemann-von Mangoldt
+estimate of 9.42). They now read as an independent from-scratch
+numerical check of a proved theorem, not as evidence for an open
+conjecture. The hypothesis is no longer open; the computation stands.
+
 ## Measured claims (v0.1.0)
 
 Bars frozen before evaluation. Frozen seeds {42, 7, 1234, 2026, 2718}

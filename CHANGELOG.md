@@ -2,6 +2,20 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # Changelog
 
+## 0.1.1 (2026-11-24)
+
+- Status note only; no code change, no bar moved, no claim re-measured.
+- Records the Alpöge/Claude Lean proof of the Riemann hypothesis
+  (announced 20 November 2026; independently verified 21 November
+  2026; Lean FRO / Mathlib joint statement of full confidence), with
+  the caveats kept on the record: no human-readable proof published
+  yet, the working guide reduces the hypothesis to thirteen numbered
+  hypotheses none proved outright, and the $1,000,000 Clay Millennium
+  Prize remains open.
+- Claims (vi) and (vii) are unchanged and still pass with the same
+  numbers; they now read as an independent from-scratch numerical
+  check of a proved theorem, not as evidence for an open conjecture.
+
 ## 0.1.0 (2026-11-22)
 
 - First version: three measured scientific outcomes from three sources.
